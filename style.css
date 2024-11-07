@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: linear-gradient(#a8ffff, #3cb371);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+}
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width: 1300px;
+	min-height: 1500px;
+	background: #ffffff;
+	margin: 50px;
+	opacity:0.8;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.container .left
+{
+	position:relative;
+	background: #001513;
+	padding:40px;
+}
+.container .right
+{
+	position:relative;
+	background: #ffffff;
+	padding:40px;
+}
+.profile
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 15px;
+	border-bottom: 3px solid rgba(255,255,255,0.4);
+}
+.profile .imgbox
+{
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	height:250px;
+	border-radius: 60%;
+	overflow:hidden;
+}
+
+.profile .name
+{
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-size:40px;
+	color: #b7ffd6;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.profile .MSSV
+{
+	font-family: "Itim", cursive;
+	font-size:25px;
+	color: #b7ffd6;
+}
+.profile .Header
+{
+	font-family: "Dancing Script", cursive;
+	font-size:25px;
+	color: #b7ffd6;
+}
+.container .right
+{
+	position:relative;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+.container .right .Tkw h1
+{
+	padding-right:15px;
+	position:relative;
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-size:40px;
+	color: #001513;
+}
+.container .right .Tkw ul
+{
+	padding-left:45px;
+	list-style-type: square;
+}
+.container .right .Tkw ul li
+{
+	padding-left:30px;
+}
+.container .right .Tkw ul li :link
+{
+	position:relative;
+	text-decoration: none;
+	font-family: "Itim", cursive;
+	font-weight: 400;
+	font-size:25px;
+	color: #001513;
+}
+.container .right .Tkw ul li :visited
+{
+	position:relative;
+	text-decoration: none;
+	font-family: "Itim", cursive;
+	font-weight: 400;
+	font-size:25px;
+	color: #001513;
+}
+.container .right .Tkw ul li:hover
+{
+	position:relative;
+	text-decoration: underline;
+	font-family: "Itim", cursive;
+	font-weight: 400;
+	font-size:25px;
+	color: #439660;
+}
+.container .right .Tkw ul li:active
+{
+	position:relative;
+	text-decoration: underline;
+	font-family: "Itim", cursive;
+	font-weight: 400;
+	font-size:25px;
+	color: red;
+}
+.container .right .Lccb h1
+{
+	padding-right:15px;
+	position:relative;
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-size:40px;
+	color: #001513;
+}
+	
